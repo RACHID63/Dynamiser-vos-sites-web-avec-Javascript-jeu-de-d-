@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  border-radius: 15px;
+  position: absolute;
+  background-color: rgb(135 165 90);
+  width: 75vw;
+  height: 100vh;
+  box-shadow: -6px 6px 6px 0px #2823238f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  margin-top: 15px;
+  width: 75vw;
+  height: 123px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.playeurs {
+  position: absolute;
+  top: 260px;
+
+  width: 349px;
+  height: 216px;
+  width: 100%;
+}
+
+.playeurs,
+.groupeLance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.groupeLance {
+  height: 200px;
+  background-color: hsla(6, 81%, 50%, 0.929);
+  border: solid whitesmoke 2px;
+  border-radius: 55px;
+  position: absolute;
+  top: 850px;
+  width: 1230px
+}
+
+#play {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 47px;
+}
+
+img.newGame {
+  position: absolute;
+  border-top: 0;
+  width: 108px;
+  border: solid 5px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 2rem;
+  margin-left: 25rem;
+}
+
+#tapisdécoration {
+  position: absolute;
+  top: 120px;
+  display: flex;
+  justify-content:center;
+  background-color: green;
+  width: 40vw;
+  border-radius: 25px;
+  border: solid 2px;
+}
+
+img.style {
+  
+    width: 55vw;
+    height: 50vh;
+
+}
+
+main {
+  background: rgb(73, 118, 5);
+  border: solid 5px;
+  width: 75vw;
+  height: 80vh;
+  /* background: rgba(0, 0, 255, 0.219); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+img#dé {
+  width: 250px;
+  border: solid 5px;
+  border-radius: 50%;
+}
+
+.fa-solid,
+.fas {
+  font-weight: 900;
+  font-size: 36px;
+  margin-left: 29px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.Courant1 {
+  margin-right: 360px;
+}
+
+Courant2 {
+  margin-left: 360px;
+}
+
+a {
+  font-size: 36px;
+}
