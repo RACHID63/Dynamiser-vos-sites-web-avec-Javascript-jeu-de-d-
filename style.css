@@ -61,7 +61,7 @@ main {
   height: 200px;
   background-color: hsla(6, 81%, 50%, 1);
   border: solid whitesmoke 2px;
-  box-shadow: -9px 8px 0 rgb(200 208 192);
+  box-shadow: -9px 8px 0 rgb(74, 75, 73);
   border-radius: 55px;
   position: fixed;
   top: 700px;
